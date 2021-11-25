@@ -1,5 +1,10 @@
 function distanceFromHqInBlocks(street) {
     return Math.abs(street-42);
+    // if (street > 42) {
+    //     return street-42
+    // } else if (street < 42) {
+    //     return 42-street
+    // }
 }
 
 function distanceFromHqInFeet(blocks) {
